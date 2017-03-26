@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/HACKtion.iml" filepath="$PROJECT_DIR$/HACKtion.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$USER_HOME$/SFUVault/General/TeamCSSS-Enactus/HACKtion/HACKtion.iml" filepath="$USER_HOME$/SFUVault/General/TeamCSSS-Enactus/HACKtion/HACKtion.iml" />
+      <module fileurl="file://$USER_HOME$/SFUVault/General/TeamCSSS-Enactus/HACKtion/app/app.iml" filepath="$USER_HOME$/SFUVault/General/TeamCSSS-Enactus/HACKtion/app/app.iml" />
     </modules>
   </component>
 </project>
