@@ -13,8 +13,8 @@ public class browsePage extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_browse_page);
     }
-    public void sex(View report){
-        Intent intent=new Intent(this, report.class);
+    public void sex(View sampleReport){
+        Intent intent=new Intent(this, sampleReport.class);
         startActivity(intent);
     }
 }
