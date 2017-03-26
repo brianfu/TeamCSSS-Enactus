@@ -13,7 +13,7 @@ public class browsePage extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_browse_page);
     }
-    public void sex(View MainActivity){
+    public void sex(View MainActivity){ //makes back button work
         Intent intent=new Intent(this, MainActivity.class);
         startActivity(intent);
     }
