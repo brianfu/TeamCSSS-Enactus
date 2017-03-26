@@ -24,6 +24,7 @@ public class report extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
+        setTitle("Activities");
     }
 
 }
