@@ -15,8 +15,20 @@ public class MainActivity extends AppCompatActivity {
     //random commit test
     //random commit 2
 
-    public void publicButton(View profile){
+    public void profileButton(View profile){
         Intent intent=new Intent(this, profile.class);
+        startActivity(intent);
+    }
+    public void tutorialButton(View tutorial){
+        Intent intent=new Intent(this, tutorialPage.class);
+        startActivity(intent);
+    }
+    public void browseButton(View browse){
+        Intent intent=new Intent(this, browsePage.class);
+        startActivity(intent);
+    }
+    public void reportButton(View report){
+        Intent intent=new Intent(this, report.class);
         startActivity(intent);
     }
 
