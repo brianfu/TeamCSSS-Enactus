@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/MyReport"
+            android:icon="?attr/actionModePasteDrawable"
+            android:title="My Activities" />
+        <item
+            android:id="@+id/SumReport"
+            android:icon="@android:drawable/ic_search_category_default"
+            android:title="Sumbit your report" />
+        <item
+            android:id="@+id/profileMy"
+            android:icon="@android:drawable/sym_def_app_icon"
+            android:title="My Profile" />
+        <item
+            android:id="@+id/reports"
+            android:icon="?attr/actionModeShareDrawable"
+            android:title="Reports" />
+    </group>
+
+
+
+</menu>
