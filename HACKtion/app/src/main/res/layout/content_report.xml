@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -8,6 +9,8 @@
     tools:context="com.example.jryzkns.hacktion.report"
     tools:showIn="@layout/activity_report"
     >
+
+    <!-- 2 buttons below - Left to right -->
 
     <Button
         android:layout_width="175dp"
@@ -20,7 +23,8 @@
         tools:layout_editor_absoluteY="463dp"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        android:onClick="myReportsex"/>
 
     <Button
         android:layout_width="175dp"
@@ -33,6 +37,74 @@
         tools:layout_editor_absoluteY="463dp"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:onClick="myTasksex"/>
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="8dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/profile_pic" />
+
+    <!-- layout_alignBottom below makes everything work-->
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Joe Fred Bob \nDank meme extrodinaire"
+        android:layout_alignBottom="@+id/imageButton1"
+        android:layout_toRightOf="@+id/imageButton1"
+        android:layout_toEndOf="@+id/imageButton1"
+        android:id="@+id/edit1"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginBottom="8dp" />
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/profile_pic"
+        android:layout_marginTop="62dp"
+        android:layout_below="@+id/imageButton1"
+        android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Parsa's Macbook Pro \nDev is tired"
+        android:layout_alignBottom="@+id/imageButton2"
+        android:layout_toRightOf="@+id/imageButton2"
+        android:layout_toEndOf="@+id/imageButton2"
+        android:layout_marginLeft="11dp"
+        android:id="@+id/edit2"
+        android:layout_marginStart="11dp"
+        android:layout_marginBottom="8dp" />
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/profile_pic"
+        android:layout_above="@+id/myTasks"
+        android:layout_alignLeft="@+id/imageButton2"
+        android:layout_alignStart="@+id/imageButton2"
+        android:layout_marginBottom="19dp" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Plantmonster \nMcVenusflytrapFace"
+        android:id="@+id/edit3"
+        android:layout_marginBottom="13dp"
+        android:layout_alignBottom="@+id/imageButton3"
+        android:layout_toRightOf="@+id/imageButton3"
+        android:layout_toEndOf="@+id/imageButton3" />
+
 
 </RelativeLayout>
