@@ -8,40 +8,71 @@
 
     <ImageView
         android:id="@+id/imageView2"
+        android:layout_width="85dp"
         android:layout_height="84dp"
-        android:layout_width="82dp"
-        app:srcCompat="@drawable/profile_pic"
-        tools:layout_editor_absoluteX="139dp"
-        tools:layout_editor_absoluteY="16dp" />
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.44"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.029"
+        app:srcCompat="@drawable/profile_pic" />
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="127dp"
+        android:layout_height="17dp"
         android:text="First Name and Last"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-        tools:layout_editor_absoluteX="117dp"
-        tools:layout_editor_absoluteY="116dp" />
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintVertical_bias="0.23000002" />
 
     <RatingBar
         android:id="@+id/ratingBar"
         style="@style/Widget.AppCompat.RatingBar.Small"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="80dp"
+        android:layout_height="16dp"
         android:backgroundTint="@android:color/darker_gray"
-        tools:layout_editor_absoluteX="140dp"
-        tools:layout_editor_absoluteY="142dp" />
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintVertical_bias="0.26999998" />
 
-    <EditText
+    <TextView
         android:id="@+id/editText2"
-        style="@android:style/Widget.AutoCompleteTextView"
+        style="@style/Widget.AppCompat.AutoCompleteTextView"
         android:layout_width="308dp"
         android:layout_height="339dp"
         android:ems="10"
         android:inputType="textMultiLine"
         android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam feugiat, turpis lobortis mattis commodo, neque nisl dignissim nunc, non porttitor urna tortor sed nibh. Proin sed neque odio. In et nisi eu felis sollicitudin semper ut ac diam. Ut dapibus suscipit tortor, ut vehicula quam maximus et. Fusce aliquet, risus nec egestas ullamcorper, quam massa suscipit nisl, non aliquet metus risus ac diam. Praesent et suscipit nunc. Sed vel sem sed purus maximus aliquet. Cras a felis sit amet tellus placerat consequat eu eu sem. Donec fermentum mollis malesuada. Phasellus nulla nisl, mattis vitae lorem ut, posuere pellentesque purus. Duis in tortor eget lacus finibus sollicitudin. Phasellus egestas posuere dictum. Pellentesque commodo elementum leo, ac tempor odio egestas sodales.  "
         android:textAppearance="@style/TextAppearance.AppCompat.Small"
-        tools:layout_editor_absoluteX="25dp"
-        tools:layout_editor_absoluteY="145dp" />
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintVertical_bias="0.92" />
 
 </android.support.constraint.ConstraintLayout>
