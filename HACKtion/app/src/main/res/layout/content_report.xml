@@ -8,7 +8,6 @@
     tools:context="com.example.jryzkns.hacktion.report"
     tools:showIn="@layout/activity_report">
 
-<<<<<<< Updated upstream
     <EditText
         android:focusable="false"
         android:id="@+id/editText"
@@ -152,7 +151,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-=======
+
     <Button
         android:layout_width="175dp"
         android:layout_height="wrap_content"
@@ -172,5 +171,5 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         tools:layout_editor_absoluteY="463dp" />
->>>>>>> Stashed changes
+
 </android.support.constraint.ConstraintLayout>
