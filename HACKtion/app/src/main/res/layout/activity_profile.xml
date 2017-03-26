@@ -62,6 +62,7 @@
         android:layout_width="308dp"
         android:layout_height="339dp"
         android:ems="10"
+        android:focusable="false"
         android:inputType="textMultiLine"
         android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam feugiat, turpis lobortis mattis commodo, neque nisl dignissim nunc, non porttitor urna tortor sed nibh. Proin sed neque odio. In et nisi eu felis sollicitudin semper ut ac diam. Ut dapibus suscipit tortor, ut vehicula quam maximus et. Fusce aliquet, risus nec egestas ullamcorper, quam massa suscipit nisl, non aliquet metus risus ac diam. Praesent et suscipit nunc. Sed vel sem sed purus maximus aliquet. Cras a felis sit amet tellus placerat consequat eu eu sem. Donec fermentum mollis malesuada. Phasellus nulla nisl, mattis vitae lorem ut, posuere pellentesque purus. Duis in tortor eget lacus finibus sollicitudin. Phasellus egestas posuere dictum. Pellentesque commodo elementum leo, ac tempor odio egestas sodales.  "
         android:textAppearance="@style/TextAppearance.AppCompat.Small"
