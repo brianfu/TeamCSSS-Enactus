@@ -1,5 +1,6 @@
 package com.example.jryzkns.hacktion;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -24,6 +25,10 @@ public class sampleReport extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
+    }
+    public void sex(View sampleReport){
+        Intent intent=new Intent(this, sampleReport.class);
+        startActivity(intent);
     }
 
 }

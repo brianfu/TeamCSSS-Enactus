@@ -10,7 +10,7 @@
     tools:showIn="@layout/activity_report"
     >
 
-
+    <!-- 2 buttons below - Left to right -->
 
     <Button
         android:layout_width="175dp"
@@ -23,7 +23,8 @@
         tools:layout_editor_absoluteY="463dp"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        android:onClick="myReportsex"/>
 
     <Button
         android:layout_width="175dp"
@@ -36,7 +37,8 @@
         tools:layout_editor_absoluteY="463dp"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:onClick="myTasksex"/>
 
     <ImageButton
         android:id="@+id/imageButton1"

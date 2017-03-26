@@ -16,7 +16,7 @@ import android.view.MenuItem;
 
 public class homePage extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
-    public void sex(View sampleReport){
+    public void sex(View samplereport){
         Intent intent=new Intent(this, sampleReport.class);
         startActivity(intent);
     }
