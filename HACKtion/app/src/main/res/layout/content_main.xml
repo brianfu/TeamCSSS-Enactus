@@ -13,7 +13,6 @@
     tools:context="com.example.jryzkns.hacktion.MainActivity"
     tools:showIn="@layout/activity_main">
 
-    <RelativeLayout
         android:id="@+id/content_main"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -37,11 +36,8 @@
             android:padding="15dp"
             android:text="Profile"
             android:layout_alignTop="@+id/Reports"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:layout_marginLeft="29dp"
-            android:layout_marginStart="29dp"
-            android:layout_marginTop="74dp" />
+            android:layout_alignLeft="@+id/Tutorial"
+            android:layout_alignStart="@+id/Tutorial" />
 
         <Button
             android:id="@+id/Tutorial"
@@ -51,11 +47,10 @@
             android:padding="15dp"
             android:text="Toturial"
             android:layout_alignParentBottom="true"
-            android:layout_alignRight="@+id/Reports"
-            android:layout_alignEnd="@+id/Reports"
-            android:layout_marginRight="23dp"
-            android:layout_marginEnd="23dp"
-            android:layout_marginBottom="27dp" />
+            android:layout_marginRight="40dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginBottom="40dp"
+            android:layout_marginLeft="40dp" />
 
         <Button
             android:id="@+id/Reports"
@@ -68,8 +63,8 @@
             android:layout_alignParentTop="true"
             android:layout_alignParentRight="true"
             android:layout_alignParentEnd="true"
-            android:layout_marginRight="29dp"
-            android:layout_marginEnd="29dp" />
+            android:layout_marginRight="40dp"
+            android:layout_marginEnd="40dp" />
 
         <Button
             android:id="@+id/InvasivePlants"
@@ -78,12 +73,9 @@
             android:background="@drawable/button_bg_round"
             android:padding="15dp"
             android:text="Invasive Plants"
-            android:layout_alignBottom="@+id/Tutorial"
-            android:layout_alignRight="@+id/Profile"
-            android:layout_alignEnd="@+id/Profile"
-            android:layout_marginRight="24dp"
-            android:layout_marginEnd="24dp"
-            android:layout_marginBottom="32dp" />
-    </RelativeLayout>
+            android:layout_alignTop="@+id/Tutorial"
+            android:layout_alignLeft="@+id/Reports"
+            android:layout_alignStart="@+id/Reports"
+            />
 
 </RelativeLayout>
