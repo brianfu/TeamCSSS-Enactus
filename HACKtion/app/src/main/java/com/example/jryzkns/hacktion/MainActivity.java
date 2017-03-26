@@ -1,5 +1,6 @@
 package com.example.jryzkns.hacktion;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -13,6 +14,11 @@ public class MainActivity extends AppCompatActivity {
 
     //random commit test
     //random commit 2
+
+    public void publicButton(View profile){
+        Intent intent=new Intent(this, profile.class);
+        startActivity(intent);
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
