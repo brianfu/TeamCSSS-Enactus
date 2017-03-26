@@ -12,6 +12,7 @@ import android.view.MenuItem;
 public class MainActivity extends AppCompatActivity {
 
     //random commit test
+    //random commit 2
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -33,57 +33,57 @@
             android:id="@+id/Profile"
             android:layout_width="90dp"
             android:layout_height="90dp"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
-            android:layout_marginLeft="40dp"
-            android:layout_marginStart="40dp"
-            android:layout_marginTop="89dp"
             android:background="@drawable/button_bg_round"
             android:padding="15dp"
-            android:text="Profile" />
+            android:text="Profile"
+            android:layout_alignTop="@+id/Reports"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="29dp"
+            android:layout_marginStart="29dp"
+            android:layout_marginTop="74dp" />
 
         <Button
             android:id="@+id/Tutorial"
             android:layout_width="90dp"
             android:layout_height="90dp"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
-            android:layout_marginLeft="40dp"
-            android:layout_marginStart="200dp"
-            android:layout_marginTop="300dp"
             android:background="@drawable/button_bg_round"
             android:padding="15dp"
-            android:text="Toturial" />
+            android:text="Toturial"
+            android:layout_alignParentBottom="true"
+            android:layout_alignRight="@+id/Reports"
+            android:layout_alignEnd="@+id/Reports"
+            android:layout_marginRight="23dp"
+            android:layout_marginEnd="23dp"
+            android:layout_marginBottom="27dp" />
 
         <Button
             android:id="@+id/Reports"
             android:layout_width="90dp"
             android:layout_height="90dp"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
-            android:layout_marginLeft="40dp"
-            android:layout_marginStart="200dp"
-            android:layout_marginTop="89dp"
+            android:layout_marginTop="58dp"
             android:background="@drawable/button_bg_round"
             android:padding="15dp"
-            android:text="Reports" />
+            android:text="Reports"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="29dp"
+            android:layout_marginEnd="29dp" />
 
         <Button
             android:id="@+id/InvasivePlants"
             android:layout_width="90dp"
             android:layout_height="90dp"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
-            android:layout_marginLeft="40dp"
-            android:layout_marginStart="40dp"
-            android:layout_marginTop="300dp"
             android:background="@drawable/button_bg_round"
             android:padding="15dp"
-            android:text="Invasive Plants" />
+            android:text="Invasive Plants"
+            android:layout_alignBottom="@+id/Tutorial"
+            android:layout_alignRight="@+id/Profile"
+            android:layout_alignEnd="@+id/Profile"
+            android:layout_marginRight="24dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="32dp" />
     </RelativeLayout>
 
 </RelativeLayout>
