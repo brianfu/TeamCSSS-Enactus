@@ -22,7 +22,7 @@
         android:layout_alignStart="@+id/browseButton"
         android:layout_alignTop="@+id/myReport"
         android:background="@drawable/button_bg_round"
-        android:onClick="publicButton"
+        android:onClick="profileButton"
         android:padding="15dp"
         android:text="Profile"
         tools:clickable="true" />

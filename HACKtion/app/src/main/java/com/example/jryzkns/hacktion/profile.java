@@ -2,6 +2,7 @@ package com.example.jryzkns.hacktion;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
 
 public class profile extends AppCompatActivity {
 

@@ -19,11 +19,11 @@ public class MainActivity extends AppCompatActivity {
         Intent intent=new Intent(this, profile.class);
         startActivity(intent);
     }
-    public void tutorialButton(View tutorial){
+    public void tutorialButton(View tutorialPage){
         Intent intent=new Intent(this, tutorialPage.class);
         startActivity(intent);
     }
-    public void browseButton(View browse){
+    public void browseButton(View browsePage){
         Intent intent=new Intent(this, browsePage.class);
         startActivity(intent);
     }

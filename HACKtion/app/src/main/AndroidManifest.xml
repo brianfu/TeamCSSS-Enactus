@@ -24,7 +24,11 @@
             android:label="@string/title_activity_report"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".browsePage" />
-        <activity android:name=".tutorialPage"></activity>
+        <activity android:name=".tutorialPage" />
+        <activity
+            android:name=".Main2Activity"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>
